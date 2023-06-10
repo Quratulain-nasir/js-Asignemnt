@@ -143,8 +143,24 @@
 
 
 // Task 16
-var university = "U<br>n<br>i<br>v<br>e<br>r<br>s<br>i<br>t<br>y<br><br> o<br>f<br><br> K<br>a<br>r<br>a<br>c<br>h<br>i<br>";
-var universityArray = university.split(" ");
-{document.write( university + "<br>");
-}
+// var university = "U<br>n<br>i<br>v<br>e<br>r<br>s<br>i<br>t<br>y<br><br> o<br>f<br><br> K<br>a<br>r<br>a<br>c<br>h<br>i<br>";
+// var universityArray = university.split(" ");
+// {document.write( university + "<br>");
+// }
 
+// Task 17
+// var userInput = prompt("Enter your input:");
+// var lastCharacter = userInput[userInput.length - 1];
+// {document.write("User Input:"+ userInput+ "<br>Last character of Input: " + lastCharacter);}
+
+
+// Task 18
+// var sentence = "The quick brown fox jumps over the lazy dog";
+// var wordToCount = "the";
+// var lowercaseSentence = sentence.toLowerCase();
+// var lowercaseWord = wordToCount.toLowerCase();
+// var words = lowercaseSentence.split(" ");
+// var count = 0;
+// for (var i = 0; i < words.length; i++) {
+// if (words[i] === lowercaseWord) {count++;}};
+// {document.write("Text : The quick brown fox jump over the lazy dog." + "<br>There are two occurrences of the " + wordToCount + ": " + count);}
